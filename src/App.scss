@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set your brand colors
+$pink: rgb(235, 0, 141);
+$grey-lighter: #f3f4f5;
+$navy:rgb(25, 28, 31);
+
+
+// Update Bulma's global variables
+$family-sans-serif: 'Roboto', sans-serif;
+$grey-light: $grey-lighter;
+$primary: $pink;
+$link: $pink;
+$color:$navy;
+
+// Update some of Bulma's component variables
+$body-color: $navy;
+$body-background-color: $grey-lighter;
+
+
+@import "../node_modules/bulma/bulma";
