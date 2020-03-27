@@ -10,6 +10,8 @@ A simple react app where you can see current exchange rates for GBP, USD, and EU
 
 Using https://api.exchangeratesapi.io/ api  to get a live exchange rate, this is updated every 10 seconds
 
+Exchange button will be disabled if there isn't enough balance to complete an exchange or if both dropdowns are on the same currency
+
 
 ## Available Scripts
 
